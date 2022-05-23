@@ -1,1 +1,37 @@
-/* pages/user/user.wxss */
+Page {
+  height: 100%;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  background-color: rgb(30, 160, 255);
+  flex: 3.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nickname {
+  color: white;
+  font-size: 36rpx;
+  font-weight: lighter;
+  margin: 10rpx;
+}
+
+.bg {
+  background-color: rgb(247, 247, 247);
+  flex: 6.6
+}
+
+.avatar {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  border: white 8rpx solid;
+}

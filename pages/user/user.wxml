@@ -1,2 +1,8 @@
-<!--pages/user/user.wxml-->
-<text>pages/user/user.wxml</text>
+<view class="content">
+  <view class="head">
+    <image class="avatar" src="./img/avatar.jpg"></image>
+    <view class="nickname">NickName</view>
+  </view>
+  <view class="bg">
+  </view>
+</view>
