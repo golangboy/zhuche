@@ -2,13 +2,45 @@
   "pages": [
     "pages/home/home",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/order/order",
+    "pages/topic/topic"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "鸡儿拼车",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#029DF9",
+    "list": [{
+        "iconPath": "./img/home.png",
+        "pagePath": "pages/home/home",
+        "selectedIconPath": "./img/home.png",
+        "text": "主页"
+      },
+      {
+        "iconPath": "./img/topic.png",
+        "pagePath": "pages/topic/topic",
+        "selectedIconPath": "./img/topic.png",
+        "text": "资讯"
+      },
+      {
+        "iconPath": "./img/order.png",
+        "pagePath": "pages/order/order",
+        "selectedIconPath": "./img/order.png",
+        "text": "订单"
+      },
+      {
+        "iconPath": "./img/user.png",
+        "pagePath": "pages/user/user",
+        "selectedIconPath": "./img/user.png",
+        "text": "我的"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
