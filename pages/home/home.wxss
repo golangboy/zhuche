@@ -1,0 +1,102 @@
+Page {
+  height: 100%;
+}
+
+.notify {
+  background-color: rgb(255, 249, 235);
+  height: 80rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 35rpx;
+  color: rgb(227, 111, 43);
+}
+
+.notify .lb {
+  height: 46rpx;
+  width: 46rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.bg {
+  background-color: rgb(247, 247, 247);
+}
+
+.card {
+  background-color: white;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30rpx;
+  z-index: 9999;
+  position: relative;
+  border-radius: 10rpx;
+}
+
+.card .content {
+  padding: 30rpx;
+}
+
+.item_title {
+  font-size: 26rpx;
+  border-left: rgb(62, 153, 172) solid 3rpx;
+  padding-left: 30rpx;
+}
+
+.item_content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20rpx;
+  border-bottom: rgb(226, 226, 226) solid 5rpx;
+}
+
+.position {
+  font-weight: 500;
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid rgb(3, 145, 197);
+  border-right: 2px solid rgb(3, 145, 197);
+  transform: rotate(45deg);
+}
+
+.dateline {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 26rpx;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+}
+
+.time_gap {
+  font-size: 26rpx;
+  color: rgb(60, 190, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time_gap .gray_line {
+  width: 100rpx;
+  height: 5rpx;
+  background-color: rgb(246, 246, 246);
+  margin: 20rpx;
+}
+
+.chocie_car {
+  background-color: rgb(2, 157, 249);
+  border-radius: 10rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

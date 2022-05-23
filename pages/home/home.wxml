@@ -1,0 +1,68 @@
+<view class="bg" style="height: 100%;">
+  <view class="notify">
+    <image src="./img/lb.png" class="lb"></image>
+    <view>如果需要租车，自己想办法</view>
+  </view>
+  <swiper>
+    <swiper-item>
+      <image src="./img/1.png" mode="scaleToFill" style="height: 100%;width: 100%;"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="./img/2.png" mode="scaleToFill" style="height: 100%;width: 100%;"></image>
+    </swiper-item>
+  </swiper>
+
+  <view class="card">
+    <view class="content">
+      <view class="item_title">
+        <view>取车地点</view>
+      </view>
+      <text>\n</text>
+      <view class="item_content">
+        <image src="./img/car.png" style="width: 36rpx;height: 30rpx;"></image>
+        <view style="display: flex;align-items: center;">
+          <view class="position">鸡儿拼车 - 中山大学店</view>
+          <view class="arrow"></view>
+        </view>
+      </view>
+      <text>\n</text>
+      <view class="item_title">
+        <view>还车地点</view>
+      </view>
+      <text>\n</text>
+      <view class="item_content">
+        <image src="./img/car.png" style="width: 36rpx;height: 30rpx;"></image>
+        <view style="display: flex;align-items: center;">
+          <view class="position">鸡儿拼车 - 中山大学店</view>
+          <view class="arrow"></view>
+        </view>
+      </view>
+      <text>\n</text>
+      <view class="dateline">
+        <view>
+          2022-05-23
+        </view>
+        <view>
+          2022-05-25
+        </view>
+      </view>
+      <view class="time_gap">
+        <view class="gray_line"></view>
+        <view>2 天 0 时</view>
+        <view class="gray_line"></view>
+      </view>
+      <view class="timeline">
+        <view>
+          15:00:00
+        </view>
+        <view>
+          15:00:00
+        </view>
+      </view>
+      <text>\n</text>
+      <view class="chocie_car">
+        去选车
+      </view>
+    </view>
+  </view>
+</view>
