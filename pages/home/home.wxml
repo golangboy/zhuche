@@ -19,7 +19,9 @@
       </view>
       <text>\n</text>
       <view class="item_content">
-        <image src="./img/car.png" style="width: 36rpx;height: 30rpx;"></image>
+        <view>
+          <image src="./img/car.png" style="width: 36rpx;height: 30rpx;"></image>
+        </view>
         <view style="display: flex;align-items: center;">
           <view class="position">鸡儿拼车 - 中山大学店</view>
           <view class="arrow"></view>
@@ -31,7 +33,9 @@
       </view>
       <text>\n</text>
       <view class="item_content">
-        <image src="./img/car.png" style="width: 36rpx;height: 30rpx;"></image>
+        <view>
+          <image src="./img/car.png" style="width: 36rpx;height: 30rpx;"></image>
+        </view>
         <view style="display: flex;align-items: center;">
           <view class="position">鸡儿拼车 - 中山大学店</view>
           <view class="arrow"></view>
