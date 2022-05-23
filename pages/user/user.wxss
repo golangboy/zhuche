@@ -1,20 +1,21 @@
 Page {
-  height: 100%;
+  height: fit-content;
+  background-color: rgb(247, 247, 247);
 }
 
 .content {
-  height: 100%;
-  display: flex;
+  height: fit-content;
   flex-direction: column;
 }
 
 .head {
   background-color: rgb(30, 160, 255);
-  flex: 3.4;
+  height: 400rpx;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: -1;
 }
 
 .nickname {
@@ -25,8 +26,13 @@ Page {
 }
 
 .bg {
-  background-color: rgb(247, 247, 247);
-  flex: 6.6
+  font-size: 32rpx;
+  font-weight: 400;
+  color: black;
+
+  margin-top: -30rpx;
+  z-index: 9999;
+  position: relative;
 }
 
 .avatar {
@@ -34,4 +40,78 @@ Page {
   height: 160rpx;
   border-radius: 50%;
   border: white 8rpx solid;
+}
+
+.order_list_box {
+  height: fit-content;
+  background-color: white;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10rpx;
+}
+
+.item_memu {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  position: relative;
+  border-radius: 10rpx;
+}
+
+.item {
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+
+.item image {
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.item_title {
+  margin-left: 20rpx;
+}
+
+.bottom_line {
+  border-bottom: #f4f4f4 2rpx solid;
+
+}
+
+.order_list_box_head {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+}
+
+.arrow {
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid rgb(3, 145, 197);
+  border-right: 2px solid rgb(3, 145, 197);
+  transform: rotate(45deg);
+}
+
+.order_list_content {
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.order_list_content_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.order_list_content_item image {
+  width: 80rpx;
+  height: 80rpx;
 }

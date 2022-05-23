@@ -4,5 +4,78 @@
     <view class="nickname">NickName</view>
   </view>
   <view class="bg">
+    <view class="order_list_box">
+      <view class="order_list_box_head bottom_line">
+        <view>我的订单</view>
+        <view style="display: flex;align-items: center;">
+          <view>全部订单</view>
+          <view class="arrow"></view>
+        </view>
+      </view>
+      <view class="order_list_content">
+        <view class="order_list_content_item">
+          <image src="./img/payed.png"></image>
+          <view>待付款</view>
+        </view>
+        <view class="order_list_content_item">
+          <image src="./img/using.png"></image>
+          <view>租用中</view>
+        </view>
+        <view class="order_list_content_item">
+          <image src="./img/finished.png"></image>
+          <view>已完成</view>
+        </view>
+        <view class="order_list_content_item">
+          <image src="./img/orders.png"></image>
+          <view>全部订单</view>
+        </view>
+      </view>
+    </view>
+    <text>\n</text>
+    <view class="item_memu">
+      <view class="item bottom_line">
+        <view style="height: fit-content;display: flex;">
+          <image src="./img/location.png"></image>
+          <view class="item_title">分店指引</view>
+        </view>
+        <view class="arrow"></view>
+      </view>
+      <view class="item bottom_line">
+        <view style="height: fit-content;display: flex;">
+          <image src="./img/yhq.png"></image>
+          <view class="item_title">优惠卷</view>
+        </view>
+        <view class="arrow"></view>
+      </view>
+      <view class="item bottom_line">
+        <view style="height: fit-content;display: flex;">
+          <image src="./img/phone.png"></image>
+          <view class="item_title">联系电话</view>
+        </view>
+        <view class="arrow"></view>
+      </view>
+      <view class="item bottom_line">
+        <view style="height: fit-content;display: flex;">
+          <image src="./img/abount.png"></image>
+          <view class="item_title">关于我们</view>
+        </view>
+        <view class="arrow"></view>
+      </view>
+      <view class="item bottom_line">
+        <view style="height: fit-content;display: flex;">
+          <image src="./img/shop.png"></image>
+          <view class="item_title">商家入口</view>
+        </view>
+        <view class="arrow"></view>
+      </view>
+      <view class="item">
+        <view style="height: fit-content;display: flex;">
+          <image src="./img/view.png"></image>
+          <view class="item_title">意见反馈</view>
+        </view>
+        <view class="arrow"></view>
+      </view>
+    </view>
+    <text>\n</text>
   </view>
 </view>
