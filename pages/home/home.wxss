@@ -1,5 +1,6 @@
 Page {
-  height: 100%;
+  height: fit-content;
+  background-color: rgb(247, 247, 247);
 }
 
 .notify {
@@ -21,6 +22,7 @@ Page {
 
 .bg {
   background-color: rgb(247, 247, 247);
+  height: fit-content;
 }
 
 .card {
