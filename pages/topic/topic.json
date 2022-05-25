@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "l-icon":"/dist/icon/index"
+  },
+  "navigationBarTitleText": "新闻咨询"
 }

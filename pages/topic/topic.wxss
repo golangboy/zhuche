@@ -1,1 +1,53 @@
-/* pages/topic/topic.wxss */
+Page {
+  height: fit-content;
+  background-color: #f7f7f7;
+}
+
+.article {
+  margin: 30rpx;
+  padding-bottom: 20rpx;
+  display: flex;
+  border-bottom: 1rpx solid gray;
+  align-items: center;
+}
+
+.preview {
+  height: 200rpx;
+  width: 320rpx;
+  display: block;
+  border-radius: 10rpx;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 10rpx;
+}
+
+.desc {
+  font-size: 32rpx;
+  color: gray;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  font-size: 26rpx;
+  color: gray;
+}
+
+.view {
+  font-size: 26rpx;
+  color: gray;
+  display: flex;
+  align-items: center;
+}

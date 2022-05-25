@@ -1,2 +1,16 @@
-<!--pages/topic/topic.wxml-->
-<text>pages/topic/topic.wxml</text>
+<view class="article">
+  <view style="margin-right: 20rpx;">
+    <image src="./img/1.png" class="preview"></image>
+  </view>
+  <view class="content">
+    <view class="title">免押金服务</view>
+    <view class="desc">鸡儿拼车是一款非常好用的APP</view>
+    <view class="meta">
+      <view class="date">2020-02-02</view>
+      <view class="view">
+        <l-icon name="eye"></l-icon>
+        708人
+      </view>
+    </view>
+  </view>
+</view>
