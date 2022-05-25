@@ -64,7 +64,7 @@
         </view>
       </view>
       <text>\n</text>
-      <view class="chocie_car">
+      <view class="chocie_car" bindtap="to" data-target="/pages/choicecar/choicecar">
         去选车
       </view>
     </view>

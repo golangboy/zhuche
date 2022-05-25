@@ -1,0 +1,40 @@
+Page {
+  height: fit-content;
+  background-color: #f5f5f5;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow {
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid rgb(3, 145, 197);
+  border-right: 2px solid rgb(3, 145, 197);
+  transform: rotate(45deg);
+}
+
+.logo {
+  width: 160rpx;
+  height: 120rpx;
+}
+
+.btn_wrap{
+  height: 100rpx;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+  background-color: white;
+  border: 1rpx solid #f0f0f0;
+}

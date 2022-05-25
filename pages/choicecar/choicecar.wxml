@@ -1,0 +1,37 @@
+<view style="padding: 10rpx;background-color: white;">
+  <l-search-bar shape="circle">
+  </l-search-bar>
+</view>
+<text>\n</text>
+<l-card type="primary" plaintext="{{true}}">
+  <view class="content">
+    <view style="margin-right: 36rpx;">
+      <image src="./img/1.png" class="logo"></image>
+    </view>
+    <view style="flex:1">
+      <view style="margin-bottom: 30rpx;display: flex;justify-content: space-between;">
+        <view class="title">东南A5</view>
+        <l-tag>押金双免</l-tag>
+      </view>
+      <view style="font-size: 32rpx;color: gray;">2020款/自动</view>
+      <view style="display: flex;justify-content: space-between;">
+
+        <view style="color: orange;">¥<text style="font-size: 56rpx;">108</text>/天</view>
+
+
+        <view><text style="color: gray;font-size: 30rpx;">时租金：</text>
+          <text style="color: #00a6cd;font-size: 30rpx;">¥50</text>
+        </view>
+      </view>
+    </view>
+    <view class="arrow"></view>
+  </view>
+</l-card>
+
+
+
+<view style="height: 180rpx;"></view>
+<view class="btn_wrap">
+  <view class="btn">价格由低到高↑</view>
+  <view class="btn">筛选</view>
+</view>
