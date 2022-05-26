@@ -1,0 +1,122 @@
+Page {
+  height: fit-content;
+  background-color: #f7f7f7;
+}
+
+.info {
+  border: #e8b076 solid 4rpx;
+}
+
+.title {
+  color: white;
+  background-color: #e8b076;
+  padding: 10rpx;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  padding: 14rpx;
+  background-color: white;
+}
+
+
+.attr {
+  color: grey;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10rpx;
+  padding: 10rpx;
+}
+
+.car_info {
+  display: flex;
+}
+
+.preview {
+  height: 100rpx;
+  width: 160rpx;
+  display: block;
+  margin: 30rpx;
+}
+
+.car_detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.car_desc {
+  font-size: 26rpx;
+  color: gray;
+  margin-bottom: 15rpx;
+}
+
+.car_price {
+  font-size: 26rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.day_rent {
+  color: #e8b076;
+}
+
+.hour_rent {
+  color: dodgerblue;
+}
+
+.rent_time {
+  padding: 10rpx;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* align-content: stretch; */
+  align-items: stretch;
+}
+
+.start_pos {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.date {
+  font-size: 28rpx;
+}
+
+.gap {
+  border: gainsboro 2rpx solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rpx;
+  font-size: 22rpx;
+  padding: 20rpx;
+}
+
+.time {
+  color: gray;
+  font-size: 26rpx;
+  margin-bottom: 10rpx;
+}
+
+.pos_name {
+  font-size: 22rpx;
+  color: #17a6f2;
+}
+
+.item_title{
+  font-size: 28rpx;
+}
+
+.arrow {
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid rgb(3, 145, 197);
+  border-right: 2px solid rgb(3, 145, 197);
+  transform: rotate(45deg);
+}

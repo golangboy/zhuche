@@ -1,4 +1,4 @@
-// pages/choicecar/choicecar.js
+// pages/orderConfirm/orderConfirm.js
 Page({
 
   /**
@@ -7,12 +7,7 @@ Page({
   data: {
 
   },
-  to(e) {
-    console.log(e.currentTarget.dataset.target)
-    wx.navigateTo({
-      url: e.currentTarget.dataset.target,
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

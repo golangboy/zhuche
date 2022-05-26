@@ -3,7 +3,7 @@
   </l-search-bar>
 </view>
 <text>\n</text>
-<l-card type="primary" plaintext="{{true}}">
+<l-card type="primary" plaintext="{{true}}" bindtap="to" data-target="/pages/orderConfirm/orderConfirm">
   <view class="content">
     <view style="margin-right: 36rpx;">
       <image src="./img/1.png" class="logo"></image>

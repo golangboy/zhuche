@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "l-card": "/dist/card/index"
+  },
+  "navigationBarTitleText": "确认订单"
+}

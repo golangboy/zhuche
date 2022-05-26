@@ -8,7 +8,8 @@
     "pages/topic/topic",
     "pages/choicecar/choicecar",
     "pages/article/article",
-    "pages/orderList/orderList"
+    "pages/orderList/orderList",
+    "pages/orderConfirm/orderConfirm"
   ],
   "window": {
     "backgroundTextStyle": "light",

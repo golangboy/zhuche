@@ -1,0 +1,46 @@
+<view style="padding: 26rpx;">
+  <view class="info">
+    <view class="title">会员信息</view>
+    <view class="item">
+      <view class="attr">姓名</view>
+      <view class="value">BackTech</view>
+    </view>
+    <view class="item">
+      <view class="attr">联系电话</view>
+      <view class="value">15580398648</view>
+    </view>
+  </view>
+  <text>\n</text>
+  <view class="card">
+    <view class="car_info">
+      <image src="/pages/choicecar/img/1.png" class="preview"></image>
+      <view class="car_detail">
+        <view class="car_title">东南A5</view>
+        <view class="car_desc">2020款/自动</view>
+        <view class="car_price">
+          <view style="margin-right: 50rpx;">日租金:<text class="day_rent">¥108</text></view>
+          <view>时租金:<text class="hour_rent">¥108</text></view>
+        </view>
+      </view>
+    </view>
+    <text>\n</text>
+    <view class="rent_time">
+      <view class="start_pos">
+        <view class="date">2022-05-26</view>
+        <view class="time">22:00:00</view>
+        <view class="pos_name">中山店</view>
+      </view>
+      <view class="gap">2天0时</view>
+      <view class="end_pos">
+        <view class="date">2022-05-26</view>
+        <view class="time">22:00:00</view>
+        <view class="pos_name">中山店</view>
+      </view>
+    </view>
+  </view>
+  <text>\n</text>
+  <view class="card item_title" style="display: flex;justify-content: space-between;align-items: center;">
+    <view>使用优惠卷</view>
+    <view class="arrow"></view>
+  </view>
+</view>
