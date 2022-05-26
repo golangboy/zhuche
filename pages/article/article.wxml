@@ -1,0 +1,15 @@
+<view>
+  <image src="../home/img/1.png" class="preview"></image>
+</view>
+<view style="padding: 20rpx;height: fit-content;">
+  <view class="meta">
+    <view class="author">作者：鸡儿</view>
+    <view class="view">
+      <l-icon name="eye"></l-icon>
+      708人
+    </view>
+  </view>
+  <rich-text class="content" space="ensp" nodes="   这是听说了">
+  </rich-text>
+  <view class="pushtime">发布时间：2021-07-29</view>
+</view>

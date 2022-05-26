@@ -6,7 +6,8 @@
     "pages/user/user",
     "pages/order/order",
     "pages/topic/topic",
-    "pages/choicecar/choicecar"
+    "pages/choicecar/choicecar",
+    "pages/article/article"
   ],
   "window": {
     "backgroundTextStyle": "light",

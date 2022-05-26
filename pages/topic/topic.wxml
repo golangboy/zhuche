@@ -1,4 +1,4 @@
-<view class="article">
+<view class="article" bindtap="to" data-target="/pages/article/article">
   <view style="margin-right: 20rpx;">
     <image src="./img/1.png" class="preview"></image>
   </view>
