@@ -1,23 +1,22 @@
-// pages/user/user.js
+// pages/orderList/orderList.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    choiceItem: 'one'
+  },
 
-  },
-  toOrderListPage(e) {
-    //console.log(e.currentTarget.dataset.target)
-    wx.navigateTo({
-      url: '/pages/orderList/orderList?k=' + e.currentTarget.dataset.target,
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    if (options.k != undefined) {
+      this.setData({
+        choiceItem: options.k
+      })
+    }
   },
 
   /**

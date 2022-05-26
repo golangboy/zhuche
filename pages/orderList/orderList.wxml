@@ -1,0 +1,1 @@
+<order-list choiceItem="{{choiceItem}}" ></order-list>

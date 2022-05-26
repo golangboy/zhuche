@@ -1,0 +1,26 @@
+<view style="background-color: white;">
+  <l-segment bind:linchange="changeTabs" active-key="{{choiceItem}}">
+    <l-segment-item tab="全部订单" key="one" />
+    <l-segment-item tab="待付款" key="two" />
+    <l-segment-item tab="租用中" key="three" />
+    <l-segment-item tab="已完成" key="four" />
+  </l-segment>
+</view>
+<text>\n</text>
+<l-card type="primary" plaintext="{{true}}">
+  <view class="list_head">
+    <view class="list_num">订单号：D202205241905453430</view>
+    <view class="list_status">已取消</view>
+  </view>
+  <view class="list_content">
+    <image src="/pages/choicecar/img/1.png" class="preview"></image>
+    <view class="list_info">
+      <view class="card_name">线代瑞纳</view>
+      <view class="card_desc">2018款/自动</view>
+    </view>
+  </view>
+  <view class="list_bottom">
+    <view class="price">总价：￥336</view>
+    <l-button type="default" plain="{{true}}" size="mini">删除订单</l-button>
+  </view>
+</l-card>

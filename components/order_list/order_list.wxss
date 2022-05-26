@@ -1,0 +1,64 @@
+Page {
+  height: fit-content;
+  background-color: #f7f7f7;
+}
+
+.list_num {
+  font-size: 23rpx;
+}
+
+.list_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16rpx;
+  border-bottom: 3rpx solid rgb(221, 221, 221);
+}
+
+.list_status {
+  font-size: 26rpx;
+  font-weight: bold;
+  color: rgb(229, 6, 8);
+}
+
+.list_content {
+  display: flex;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  align-items: center;
+  padding-bottom: 16rpx;
+  border-bottom: 3rpx solid rgb(221, 221, 221);
+}
+
+.preview {
+  height: 120rpx;
+  width: 180rpx;
+  margin-right: 20rpx;
+}
+
+.card_name {
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+}
+
+.card_desc {
+  color: gray;
+  font-size: 24rpx;
+}
+
+.list_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  color: rgb(229, 6, 8);
+  font-weight: bold;
+}

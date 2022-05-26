@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "l-segment": "/dist/segment/index",
+    "l-segment-item": "/dist/segment-item/index",
+    "l-card": "/dist/card/index",
+    "l-button":"/dist/button/index"
+  }
+}
