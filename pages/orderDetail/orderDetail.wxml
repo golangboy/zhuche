@@ -1,0 +1,64 @@
+<text>\n</text>
+<l-card type="primary" plaintext="{{true}}">
+  <view class="card_title">会员信息</view>
+  <view class="card_item">
+    <view class="card_item_attr">姓名</view>
+    <view class="card_item_val">GolangBoy</view>
+  </view>
+  <view class="card_item">
+    <view class="card_item_attr">联系电话</view>
+    <view class="card_item_val">15580398648</view>
+  </view>
+</l-card>
+<text>\n</text>
+<l-card type="primary" plaintext="{{true}}">
+  <view style="display: flex;align-items: center;">
+    <image src="/pages/choicecar/img/1.png" class="car_logo"></image>
+    <view style="padding: 30rpx;">
+      <view class="car_name">现代瑞纳</view>
+      <view class="car_desc">2018款/自动</view>
+    </view>
+  </view>
+</l-card>
+<text>\n</text>
+<l-card type="primary" plaintext="{{true}}">
+  <view class="card_title">租用时长</view>
+  <view class="card_item">
+    <view class="card_item_attr">取车时间</view>
+    <view class="card_item_val">2022-05-24</view>
+  </view>
+  <view class="card_item">
+    <view class="card_item_attr">还车时间</view>
+    <view class="card_item_val">2022-05-24</view>
+  </view>
+  <view class="card_item">
+    <view class="card_item_attr">合计时长</view>
+    <view class="card_item_val">2天2小时</view>
+  </view>
+  <view class="card_item">
+    <view class="card_item_attr">选车地址</view>
+    <view class="card_item_val">吉林大学珠海学院</view>
+  </view>
+  <view class="card_item">
+    <view class="card_item_attr">还车地址</view>
+    <view class="card_item_val">吉林大学珠海学院</view>
+  </view>
+</l-card>
+<text>\n</text>
+<l-card type="primary" plaintext="{{true}}">
+  <view class="card_title">费用明细</view>
+  <view class="card_item">
+    <view class="card_item_attr">车辆租金</view>
+    <view class="card_item_val" style="font-weight: bold;color: black;">￥336</view>
+  </view>
+  <view class="card_item">
+    <view class="card_item_attr">押金</view>
+    <view class="card_item_val" style="color: rgb(217,104,30);">￥2000</view>
+  </view>
+</l-card>
+<text>\n</text>
+<l-card type="primary" plaintext="{{true}}">
+  <view class="card_title">费用明细</view>
+  <textarea type="text" placeholder="备注" class="comment" maxlength="140" />
+</l-card>
+<text>\n</text>

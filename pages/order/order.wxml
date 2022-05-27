@@ -1,1 +1,1 @@
-<order-list choiceItem="one"></order-list>
+<order-list choiceItem="one" clickToPage="/pages/orderDetail/orderDetail"></order-list>

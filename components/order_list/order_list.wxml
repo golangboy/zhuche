@@ -7,7 +7,7 @@
   </l-segment>
 </view>
 <text>\n</text>
-<l-card type="primary" plaintext="{{true}}">
+<l-card type="primary" plaintext="{{true}}" bindtap="toDetail">
   <view class="list_head">
     <view class="list_num">订单号：D202205241905453430</view>
     <view class="list_status">已取消</view>

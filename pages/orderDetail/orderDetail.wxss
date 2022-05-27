@@ -1,0 +1,38 @@
+Page {
+  background-color: #f7f7f7;
+}
+
+.card_title {
+  font-size: 30rpx;
+  padding-bottom: 10rpx;
+  border-bottom: solid 5rpx #f7f7f7;
+}
+
+.card_item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx;
+  align-items: center;
+  margin-top: 20rpx;
+  color: rgb(182, 182, 182);
+}
+
+.car_logo {
+  height: 100rpx;
+  width: 160rpx;
+  margin-right: 40rpx;
+}
+
+.car_name {
+  font-size: 36rpx;
+}
+
+.car_desc {
+  font-size: 30rpx;
+  color: rgb(179, 179, 179);
+}
+
+.comment {
+  font-size: 30rpx;
+  height: 160rpx;
+}

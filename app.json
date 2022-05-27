@@ -9,7 +9,8 @@
     "pages/choicecar/choicecar",
     "pages/article/article",
     "pages/orderList/orderList",
-    "pages/orderConfirm/orderConfirm"
+    "pages/orderConfirm/orderConfirm",
+    "pages/orderDetail/orderDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
