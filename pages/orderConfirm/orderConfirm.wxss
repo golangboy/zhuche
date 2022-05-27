@@ -29,7 +29,7 @@ Page {
 .card {
   background-color: white;
   border-radius: 10rpx;
-  padding: 10rpx;
+  padding: 14rpx;
 }
 
 .car_info {
@@ -109,7 +109,7 @@ Page {
   color: #17a6f2;
 }
 
-.item_title{
+.item_title {
   font-size: 28rpx;
 }
 
@@ -119,4 +119,26 @@ Page {
   border-top: 2px solid rgb(3, 145, 197);
   border-right: 2px solid rgb(3, 145, 197);
   transform: rotate(45deg);
+}
+
+.item_title_underline {
+  padding-bottom: 10rpx;
+  border-bottom: 6rpx solid rgb(246, 246, 246);
+}
+
+.fare {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.fare_attr {
+  color: gainsboro;
+  font-size: 30rpx;
+}
+
+.fare_price {
+  font-size: 30rpx;
+  color: rgb(220, 110, 38);
 }

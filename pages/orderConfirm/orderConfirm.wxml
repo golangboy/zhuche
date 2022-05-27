@@ -43,4 +43,15 @@
     <view>使用优惠卷</view>
     <view class="arrow"></view>
   </view>
+
+  <text>\n</text>
+  <view class="card">
+    <view class="item_title item_title_underline">
+      费用明细
+    </view>
+    <view class="fare">
+      <view class="fare_attr">车辆租金</view>
+      <view class="fare_price">￥216</view>
+    </view>
+  </view>
 </view>
