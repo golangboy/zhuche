@@ -53,5 +53,51 @@
       <view class="fare_attr">车辆租金</view>
       <view class="fare_price">￥216</view>
     </view>
+    <view class="fare">
+      <view class="fare_attr require">车辆租金</view>
+      <view class="fare_price">￥20</view>
+    </view>
+    <view class="fare">
+      <view class="fare_attr require">送车费</view>
+      <view class="fare_price">￥0</view>
+    </view>
+    <text>\n</text>
+    <view class="fare">
+      <view class="fare_total">合计金额</view>
+      <view class="fare_price">￥330</view>
+    </view>
+  </view>
+  <text>\n</text>
+  <view class="card">
+    <view class="item_title item_title_underline">
+      租车流程
+    </view>
+    <image class="rent_progress" src="./img/1.jpg" mode="scaleToFill"></image>
+  </view>
+  <text>\n</text>
+  <view class="card">
+    <view class="item_title item_title_underline">
+      订单备注
+    </view>
+    <textarea type="text" placeholder="备注" class="comment" maxlength="140" />
+  </view>
+</view>
+<view style="height: 200rpx;"></view>
+<view style="background-color: white;padding: 0rpx;position: fixed;left: 0;bottom: 0;right: 0;">
+  <view style="display: flex;align-items: center;padding: 20rpx;">
+    <l-checkbox checked="{{true}}"></l-checkbox>
+    <view style="font-size: 26rpx;">
+      我已经阅读了
+      <text style="color: rgb(55,149,236);">《预定条款》</text>、<text style="color: rgb(55,149,236);">《预定须知》</text>
+    </view>
+  </view>
+  <view style="display: flex;justify-content: space-between;">
+    <view style="display: flex;flex-direction: column;padding: 20rpx;font-size: 32rpx;">
+      <view style="font-weight: bold;">订单租金：<text style="color: rgb(220, 110, 38);">￥336.00</text></view>
+      <view style="font-size: 26rpx;color: gainsboro;">押金：￥2000</view>
+    </view>
+    <view style="padding: 30rpx;padding-left: 70rpx;padding-right: 70rpx; background-color: rgb(0,135,252);color: white;display: flex;justify-content: center;align-items: center;">
+      立即预定
+    </view>
   </view>
 </view>
