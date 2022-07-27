@@ -10,7 +10,8 @@
     "pages/article/article",
     "pages/orderList/orderList",
     "pages/orderConfirm/orderConfirm",
-    "pages/orderDetail/orderDetail"
+    "pages/orderDetail/orderDetail",
+    "pages/reqLogin/reqLogin"
   ],
   "window": {
     "backgroundTextStyle": "light",
