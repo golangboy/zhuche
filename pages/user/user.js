@@ -1,11 +1,29 @@
 // pages/user/user.js
+import * as api from "../../api/api"
+import * as reqLogin from "../reqLogin/utils"
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    login: false,
+  },
+  handleLogin() {
+    let k = reqLogin.checkLogin()
+    console.log(k)
+    if (false == k) {
+      reqLogin.navigateLogin();
+    }
+    console.log(k)
+    reqLogin.navigateLogin()
+  },
+  exitLogin() {
+    reqLogin.exitCurUser();
+    this.setData({
+      login: false
+    })
+    this.onLoad();
   },
   toOrderListPage(e) {
     //console.log(e.currentTarget.dataset.target)
@@ -17,7 +35,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    this.setData({
+      login: reqLogin.checkLogin()
+    })
   },
 
   /**
@@ -31,7 +51,9 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow() {
-
+    this.setData({
+      login: reqLogin.checkLogin()
+    })
   },
 
   /**
